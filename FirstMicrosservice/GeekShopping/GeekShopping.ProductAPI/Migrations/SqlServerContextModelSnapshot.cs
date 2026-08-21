@@ -61,6 +61,26 @@ namespace GeekShopping.ProductAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("product");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 2L,
+                            CategoryName = "Category 1",
+                            Description = "Description for Product 1",
+                            ImageUrl = "https://github.com/helenasfurb/microservices-dotnet/blob/main/ShoppingImages/00_no_image.jpg",
+                            Name = "Product 1",
+                            Price = 10m
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            CategoryName = "Category 2",
+                            Description = "Description for Product 2",
+                            ImageUrl = "https://github.com/helenasfurb/microservices-dotnet/blob/main/ShoppingImages/10_milennium_falcon.jpg",
+                            Name = "Product 2",
+                            Price = 10m
+                        });
                 });
 #pragma warning restore 612, 618
         }

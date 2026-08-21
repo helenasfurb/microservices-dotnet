@@ -3,6 +3,7 @@
     <Project Path="GeekShopping.Web/GeekShopping.Web.csproj" />
   </Folder>
   <Folder Name="/Services/">
+    <Project Path="GeekShopping.IdentityServer/GeekShopping.IdentityServer.csproj" Id="04634e79-dbd3-4b0d-b663-9bcf32a6e697" />
     <Project Path="GeekShopping.ProductAPI/GeekShopping.ProductAPI.csproj" />
   </Folder>
 </Solution>
